@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Animation + Storage Playground</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎨 Animate & Persist Preferences</h1>
+
+  <!-- Theme Toggle -->
+  <button id="themeBtn">Toggle Dark Mode</button>
+
+  <!-- Username Persistence -->
+  <div>
+    <label for="username">Enter your name:</label>
+    <input type="text" id="username" placeholder="e.g. Sam" />
+    <button onclick="saveUsername()">Save</button>
+    <p id="greeting"></p>
+  </div>
+
+  <!-- Animated Box -->
+  <button onclick="triggerAnimation()">Animate the Box 📦</button>
+  <div id="box"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
